@@ -1,0 +1,11 @@
+.page-limiter {
+    width: 60%;
+    margin: 0 auto;
+}
+.tasks {
+    font-size: 18px;
+    text-align: justify;
+}
+.task {
+    margin: 20px 0;
+}
