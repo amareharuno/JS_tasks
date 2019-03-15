@@ -7,21 +7,20 @@ const array = [3, 6, true, 1, 3, NaN, 'text', null, undefined];
 console.log(findMinMax(array));
 
 function findMinMax(arr) {
-    let numberArr = arr.filter(item => typeof item === 'number' && item === item);
-    console.log(numberArr);
-
-    if (numberArr) {
-        let min = numberArr[0];
-        let max = numberArr[0];
-
-        numberArr.forEach(item => {
-            if (item > max) max = item;
-        if (item < min) min = item;
-    });
-        return {
-            maxValue: max,
-            minValue: min
-        };
+    if (arr && arr.length) {
+        let min, max;
+        arr.forEach(item => {
+            if (typeof item === 'number' && !isNaN(item)) {
+                if (min == undefined && max == undefined) {
+                    min = item;
+                    max = item;
+                } else {
+                    if (item < min) { min = item; }
+                    if (item > max) { max = item; }
+                }
+            }
+        });
+        return {maxValue: max, minValue: min};
     } else {
         return {};
     }
