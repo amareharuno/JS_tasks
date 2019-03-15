@@ -5,7 +5,7 @@ body {
     /*font-family: "Comic Sans MS", sans-serif;*/
     padding: 28px 0;
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
 }
 .column-limiter {
     width: 70%;
@@ -16,7 +16,8 @@ body {
     text-align: justify;
 }
 .task-card {
-    background-color: white;
+    /*background-color: white;*/
+    background-color: #f3f6f9;
     margin: 20px 0;
     padding: 16px;
     border-radius: 8px;
