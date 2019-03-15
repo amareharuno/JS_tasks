@@ -11,8 +11,7 @@ console.log("Initial Array: [" + arr + "]");
 console.log("// do..while");
 let index = -1;
 do {
-    index++;
-    console.log(arr[index]);
+    console.log(arr[++index]);
 } while (arr[index] !== 1 && index < arr.length);
 
 
@@ -20,6 +19,5 @@ do {
 console.log("// while");
 let i = -1;
 while (i < arr.length && arr[i] !== 1) {
-    i++;
-    console.log(arr[i]);
+    console.log(arr[++i]);
 }
