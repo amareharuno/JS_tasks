@@ -2,6 +2,7 @@
 	Исходные данные: массив [3, 6, true, 1, 3, NaN, 'text', null, undefined].
 	Написать функцию, принимающую в параметры массив и возвращающую объект типа {maxValue: maxValue, minValue: minValue}.
 */
+console.log("Task 1 - Dima");
 
 const arr = [3, 6, true, 1, 3, NaN, 'text', null, undefined];
 
