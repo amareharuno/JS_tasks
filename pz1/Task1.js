@@ -11,7 +11,7 @@ function findMinMax(arr) {
         let min, max;
         arr.forEach(item => {
             if (typeof item === 'number' && !isNaN(item)) {
-                if (min == undefined && max == undefined) {
+                if (min === undefined && max === undefined) {
                     min = item;
                     max = item;
                 } else {
