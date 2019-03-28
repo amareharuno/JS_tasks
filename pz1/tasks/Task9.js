@@ -12,9 +12,9 @@ const summarizeEven = (array, min, max) => {
     console.log(`Range: [${min}, ${max}]`);
     let sum = 0;
     array.forEach(number => {
-        if (number >= min && number <= max && number%2 === 0) {
+        if (number >= min && number <= max && number % 2 === 0) {
             console.log(`${sum} + ${number}:`);
-            sum+=number;
+            sum += number;
             console.log(sum);
         }
     });

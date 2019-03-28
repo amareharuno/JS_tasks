@@ -13,7 +13,7 @@ function printNumbersInterval() {
         console.log(i++);
         if (i === 21) {
             const endTime = new Date();
-            console.log(`Task was running ${startTime-endTime}ms`);
+            console.log(`Task was running ${startTime - endTime}ms`);
             clearInterval(intId);
         }
     }, 100);

@@ -16,8 +16,12 @@ function findMinMax(arr) {
                     min = item;
                     max = item;
                 } else {
-                    if (item < min) { min = item; }
-                    if (item > max) { max = item; }
+                    if (item < min) {
+                        min = item;
+                    }
+                    if (item > max) {
+                        max = item;
+                    }
                 }
             }
         });

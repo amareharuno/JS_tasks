@@ -7,7 +7,7 @@ const doWhileCycle = arr => {
     do {
         console.log(arr[i]);
         i++;
-    } while (arr[i-1] !== 1 || i === arr.length);
+    } while (arr[i - 1] !== 1 || i === arr.length);
 };
 
 doWhileCycle(arr);

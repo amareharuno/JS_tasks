@@ -12,7 +12,7 @@ const removeUnderlines = (string) => {
         if (string[i] !== '_') {
             newStr += string[i];
         } else {
-            newStr += string[i+1].toUpperCase();
+            newStr += string[i + 1].toUpperCase();
             i++;
         }
     }
