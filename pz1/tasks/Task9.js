@@ -6,7 +6,7 @@
 console.log("Task 9");
 
 const arr = [-3, 0, -0, 11, 8, 5, 33, 115];
-console.log("Initial Array: [" + arr + "]");
+console.log(`Initial Array: [${arr}]`);
 
 const summarizeEven = (array, min, max) => {
     console.log(`Range: [${min}, ${max}]`);
