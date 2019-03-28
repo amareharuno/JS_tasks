@@ -5,3 +5,18 @@
     Использывать функцию setInterval.
 */
 console.log("Task 14");
+
+function printNumbersInterval() {
+    let i = 1;
+    const startTime = new Date();
+    let intId = setInterval(() => {
+        console.log(i++);
+        if (i === 21) {
+            const endTime = new Date();
+            console.log(`Task was running ${startTime-endTime}ms`);
+            clearInterval(intId);
+        }
+    }, 100);
+}
+
+printNumbersInterval();
