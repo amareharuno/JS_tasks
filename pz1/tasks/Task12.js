@@ -3,3 +3,6 @@
     Число задать как дефолтное значение для аргумента.
 */
 console.log("Task 12");
+(function (num = 1) {
+    console.log(`Result: ${num} (default value num = 1)`);
+})();
