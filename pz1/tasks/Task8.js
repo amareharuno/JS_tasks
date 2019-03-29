@@ -5,11 +5,8 @@
 console.log("Task 8");
 
 const printFibonacciSeries = (x1 = 1, sum = 1) => {
-    if (sum === 1) {
-        console.log(x1);
-    }
+    console.log(x1);
     if (sum <= 18000) {
-        console.log(sum);
         printFibonacciSeries(sum, x1 + sum);
     }
 };
